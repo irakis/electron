@@ -4,7 +4,8 @@
   "description": "system information app",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "electron main.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/irakis/electron/issues"
   },
-  "homepage": "https://github.com/irakis/electron#readme"
+  "homepage": "https://github.com/irakis/electron#readme",
+  "dependencies": {
+    "electron": "5.0.6"
+  }
 }
